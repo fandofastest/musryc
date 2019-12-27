@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".SplhActivity">
+
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/iconsplhs"
+        android:layout_centerHorizontal="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp">
+
+    <ImageView
+        android:id="@+id/icon_id"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="170dp"
+        android:layout_height="170dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/iconsplhs"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+
+        <Button
+            android:id="@+id/play_id"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_home"
+            android:text="PLAY"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/rate_id"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/play_id"
+            android:background="@drawable/bg_home"
+            android:text="RATE"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:background="@color/shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</RelativeLayout>

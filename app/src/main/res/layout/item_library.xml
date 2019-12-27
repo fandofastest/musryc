@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#DEF11B"
+    android:layout_marginTop="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/listArea"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/trackImgOffline"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/item"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"/>
+
+    <TextView
+        android:id="@+id/trackTitleOffline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/trackImgOffline"
+        android:layout_marginLeft="10dp"
+        android:text="Song Title Here "/>
+
+    </RelativeLayout>
+</RelativeLayout>

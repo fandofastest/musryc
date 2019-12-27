@@ -1,0 +1,8 @@
+PRIVACY POLICY
+
+
+1.Music provided by SoundCloud (http://www.soundcloud.com). All the songs, which are available through this application, is intended only for the use of your personal non-commercial use, you can see Privacy Policy SoundCloud (https://soundcloud.com/pages/privacy).
+
+2.Because the music is from the writers who give their music for free, you will not find any commercial music here. Please do not give negative ratings just because you do not find what you want.
+
+3.This application uses of the SoundCloud API, please see their API Terms of Use (https://developers.soundcloud.com/docs/api/terms-of-use)

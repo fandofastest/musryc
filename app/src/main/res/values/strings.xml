@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mp3 Player Lite</string>
+
+    <string name="dtjson">http://207.148.90.86/past/musryc.php</string>
+    <string name="api">https://api-v2.soundcloud.com</string>
+    <string name="stream">/stream?client_id=</string>
+
+    <string name="share_msg">Hi,I would like to share Application which is used to watch live tv free please download it from Google Play Store Free Here \n https://play.google.com/store/apps/details?id=</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menuitem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item"/>
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:layout_toRightOf="@+id/imageView"
+                android:textSize="18sp"
+                android:textColor="#DEF11B"/>
+
+            <TextView
+                android:id="@+id/subjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/judul"
+                android:layout_alignStart="@+id/judul"
+                android:layout_below="@+id/judul"
+                android:maxLines="1"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#DEF11B"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:id="@+id/duration1"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_centerVertical="true"
+                android:layout_height="25dp">
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="80dp"
+                    android:layout_height="30sp"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="#DEF11B"
+                    android:text="00:00"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/menuitem"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#bcbcbc"/>
+</RelativeLayout>

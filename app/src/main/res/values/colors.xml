@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C8BF0</color>
+    <color name="colorPrimaryDark">#5A6EE0</color>
+    <color name="colorAccent">#E20B36</color>
+
+    <color name="secondary_progress">#FFFEFE</color>
+    <color name="shimmer">#CD444446</color>
+    <color name="sosial">#77ade2</color>
+    <color name="bluer">#2DBBB5B5</color>
+    <color name="bluerrr">#747272</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000b15</color>
+</resources>
